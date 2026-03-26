@@ -6,3 +6,10 @@
     font-family: "WorkSans";
     src: url(../fonts/WorkSans-Regular.ttf);
 }
+
+h1 {
+    font-family: "FjallaOne";
+}
+body{
+    font-family: "WorkSans";
+}
