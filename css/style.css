@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "FjallaOne";
+    src: url(../fonts/FjallaOne-Regular.ttf);
+}
+@font-face {
+    font-family: "WorkSans";
+    src: url(../fonts/WorkSans-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #dddddd;
+    font-family: "WorkSans", sans-serif;
+}
+main{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: "FjallaOne", sans-serif;
+}
+form{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+fieldset{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+legend {
+    font-size: 18px;
+    padding: 0 10px;
+}
+label{
+    display: inline-block;
+    margin-bottom: 10px;    
+}
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea{
+    min-height: 100px;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    width: auto;
+}
+input[type="color"]{
+    padding: 0 5px;
+    width: 40px;
+}
+
+/* input:invalid, textarea:invalid, select:invalid{
+    border-color:red ;
+}
+
+input:valid, textarea:valid, select:valid{
+    border-color:green ;
+} */
+button{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: green;
+    color: #fff;
+}
+button[type="reset"]:hover{
+    background-color: red;
+    color: #fff;
+}
