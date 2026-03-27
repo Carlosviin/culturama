@@ -66,3 +66,11 @@ input[type="color"]{
     padding: 0 5px;
     width: 40px;
 }
+
+input:invalid, textarea:invalid, select:invalid{
+    border-color:red ;
+}
+
+input:valid, textarea:valid, select:valid{
+    border-color:green ;
+}
